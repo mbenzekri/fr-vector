@@ -1,0 +1,33 @@
+{
+    "workroot" : "./data",
+    "datasets": [
+       {
+            "name" : "admin_express",
+            "uptodate": "exist",
+            "url" :"https://jarvis:5500/ADMIN-EXPRESS_3-1__SHP_LAMB93_FXX_2022-11-21.7z",
+            "_url" :"https://wxs.ign.fr/x02uy2aiwjo9bm8ce5plwqmr/telechargement/prepackage/ADMINEXPRESS_SHP_TERRITOIRES_PACK_2022-11-21$ADMIN-EXPRESS_3-1__SHP_LAMB93_FXX_2022-11-21/file/ADMIN-EXPRESS_3-1__SHP_LAMB93_FXX_2022-11-21.7z"
+        },
+        {
+            "name" : "cog",
+            "uptodate": "exist",
+            "url" :"https://jarvis:5500/cog_ensemble_2022_csv.zip",
+            "_url" :"https://www.insee.fr/fr/statistiques/fichier/6051727/cog_ensemble_2022_csv.zip"
+        },
+        {
+            "name" : "communes_osm",
+            "uptodate": "exist",
+            "url" :"https://jarvis:5500/communes-20220101-shp.zip",
+            "_url" :"https://osm13.openstreetmap.fr/~cquest/openfla/export/communes-20220101-shp.zip"
+        },
+        {
+            "name" : "code_postaux",
+            "uptodate": "exist",
+            "url" :"https://jarvis:5500/laposte_hexasmal.csv",
+            "_url" :"https://datanova.legroupe.laposte.fr/explore/dataset/laposte_hexasmal/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true"
+        }
+        
+
+
+       
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "module",
+    "name": "fr-vector",
+    "scripts": {
+        "clean": "rmdir /Q /S .\\data\\admin_express &&  rmdir /Q /S .\\data\\cog && rmdir /Q /S .\\data\\commune_osm 2> nul",
+        "job": "node --experimental-json-modules index.js"
+    },
+    "dependencies": {
+        "node-7z": "^3.0.0",
+        "node-fetch-polyfill": "^2.0.6"
+    }
+}
